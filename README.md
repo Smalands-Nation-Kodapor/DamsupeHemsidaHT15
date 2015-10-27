@@ -23,7 +23,7 @@ Ett bildspel med random bilder som ska vilseleda.
 
 #### 24-clocka
 
-http://andrewhearst.com/images/made/24_screenshot_740_370.jpg
+![24](http://andrewhearst.com/images/made/24_screenshot_740_370.jpg)
 
 ## Doppardagen
 
