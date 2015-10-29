@@ -21,11 +21,11 @@ En som är uppe från 7:e Nov 17:00 tills oklart.
 
 Ett bildspel med random bilder som ska vilseleda. 
 
-#### 24-clocka
+#### 24-klocka
 
 ![24](http://andrewhearst.com/images/made/24_screenshot_740_370.jpg)
 
-## Doppardagen
+## Dopparedagen
 
 ### Mappstruktur
 
