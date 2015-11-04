@@ -29,7 +29,7 @@
 .splitline {
 	border-color: #BCBBBB;
 	border-width: 3px;
-	
+
 }
 
 .featured-work {
@@ -39,12 +39,14 @@
 }
 
 .project-title {
-	color: #747704;
+	color: #333;
 	font-weight: 400;
 }
 
 .project-link {
 	font-weight: 100;
+	font-size:1.2em;
+	font-weight:600;
 }
 
 .centered {
@@ -87,7 +89,7 @@
 .clockContainer{
   width: 100%;
   font-family:'digital_dismayregular';
-  color:#ffcc00;
+  color:#e10808;
   font-size:15vw;
   text-align: center;
 }
@@ -104,7 +106,7 @@
 	.clockContainer{
 		  width: 100%;
   		  font-family:'digital_dismayregular';
-          color:#ffcc00;
+          color:#e10808;
           font-size:13vw;
           text-align: center;
 	}
