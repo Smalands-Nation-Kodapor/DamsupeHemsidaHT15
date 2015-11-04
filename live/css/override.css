@@ -1,3 +1,49 @@
 .img-logo {
 	max-height: 50px;
 }
+
+.pd-icon-f1 {
+	width: 68px;
+	background: url("../assets/pd-icons/icon-f1.png") no-repeat;
+}
+
+.pd-icon-f2 {
+	width: 68px;
+	background: url("../assets/pd-icons/icon-f2.png") no-repeat;
+}
+
+.pd-icon-f3 {
+	width: 68px;
+	background: url("../assets/pd-icons/icon-f3.png") no-repeat;
+}
+
+.pd-icon-f4 {
+	width: 68px;
+	background: url("../assets/pd-icons/icon-f4.png") no-repeat;
+}
+
+
+.vote-poll {
+	width: 700px; 
+	height: 450px; 
+	border: 0;"
+}
+
+
+@media screen and (max-width: 700px) {
+
+	.vote-poll {
+		width: 500px; 
+		height: 390px; 
+		border: 0;"
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	.vote-poll {
+		width: 350px; 
+		height: 300px; 
+		border: 0;"
+	}
+}
