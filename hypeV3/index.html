@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compitible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="js/validator.js"></script>
   </head>
   
   <body>
@@ -20,10 +22,11 @@
         </div>
         <div class="col-xs-8 text-right text-uppercase">
           <h1 class="title-name">Damsupe Ht15</h1>
-          <h4 class="title-subtext">Bring it on!</h4>
+          <h4 class="title-subtext">Seeing is believing</h4>
         </div>
       </div>
-      <div class="row">
+        <div class="row">
+
         <div class="col-xs-12">
           <hr class="splitline"></hr>
         </div>
@@ -34,38 +37,53 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12">
-          <h2 class="featured-work text-center">Do you have what it takes?</h2>
-        </div>
-      </div>
-      <div class="row text-center break">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img class="img-responsive img-centered min-image" src="images/q.png" alt="Image1" 
-          data-toggle="modal" data-target="#project1">
-          <h3 class="project-title text-uppercase">Do you?</h3>
-          <p class="project-link">
-            <a href="http://freeonlinesurveys.com/s/MO7rPMsv">Let's see</a>
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img class="img-responsive img-centered min-image" src="images/q.png" alt="Image2" 
-          data-toggle="modal" data-target="#project2">
-          <h3 class="project-title text-uppercase ">Really??</h3>
-          <p class="project-link ">
-            <a href="http://jenniferdewalt.com/click_challenge.html">We'll find out</a>
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img class="img-responsive img-centered min-image" src="images/q.png" alt="Image3" 
-          data-toggle="modal" data-target="#project3">
-          <h3 class="project-title text-uppercase ">You sure???</h3>
-          <p class="project-link ">
-            <a href="https://www.youtube.com/watch?v=iRM0-FT0tUA">Can you name them all?</a>
-          </p>
-        </div>
-      </div>
-    </div>
 
+        <div class="col-xs-12">
+          <hr class="splitline"></hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="featured-work"> 
+            Can you see through the illusion?
+          </h2>
+        </div>  
+      </div>
+      <div class="row break">
+
+        <div class="col-md-6">
+          <div class="row">
+            <img class="img-responsive img-centered" src="images/ill1.jpeg" >
+          </div>
+          <div class="row break">
+            <form class="answ-box" data-toggle="validator" role="form">
+              <div class="form-group">
+                <label for="inputAnsw1" class="control-label">Answer</label>
+                <input type="text" class="form-control" id="inputAnsw1" pattern="dinosaur|Dinosaur" placeholder="What is hidden?">
+              </div>
+            </form>
+          </div>
+        </div>  
+       <div class="col-md-6">
+          <div class="row">
+            <img class="img-responsive img-centered" src="images/ill2.jpeg" >
+          </div>
+          <div class="row break">
+            <form class="answ-box" data-toggle="validator" role="form">
+              <div class="form-group">
+                <label for="inputAnsw1" class="control-label">Answer</label>
+                <input type="text" class="form-control" id="inputAnsw1" pattern="shark|Shark" placeholder="What is hidden?">
+              </div>
+            </form>
+          </div>
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <hr class="splitline"></hr>
+        </div>
+      </div>
+  </div>
   </body>
 
 </html>

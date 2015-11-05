@@ -67,6 +67,12 @@
 	margin-top: 30px;
 }
 
+.answ-box {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 @font-face {
     font-family: 'digital_dismayregular';
     src: url('../fonts/digital_dismay1.eot');
@@ -94,6 +100,9 @@
   text-align: center;
 }
 
+.answer-form {
+	width: 100%;
+}
 
 .tDivider{
   margin:0 10px;
