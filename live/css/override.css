@@ -1,3 +1,16 @@
+body {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 14px;
+  color: #808080;
+  font-weight: normal;
+  overflow-x: hidden !important;
+  line-height: 25px;
+  text-align: center;
+}
+
+
+
+
 .img-logo {
 	max-height: 50px;
 }
@@ -53,20 +66,16 @@
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 
 	.iframe {
 		width: 500px; 
-		height: 390px; 
-		border: 0;"
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
 
 	.iframe {
-		width: 350px; 
-		height: 300px; 
-		border: 0;"
+		width: 300px; 
 	}
 }
