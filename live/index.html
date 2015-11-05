@@ -13,9 +13,6 @@
      STYLESHEETS      
 ============================== -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/owl.theme.css">
-<link rel="stylesheet" href="css/owl.carousel.css">
-<link rel="stylesheet" href="css/jquery.vegas.min.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="assets/icon-fonts/styles.css"> 
 <link rel="stylesheet" href="css/pixeden-icons.css"> 
@@ -32,10 +29,13 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/video.js"></script>
 <script src="http://snapwidget.com/js/snapwidget.js"></script>
+<script type="text/javascript" src="js/settings.js"></script>
 </head>
 
 
 <body>
+
+<img src="images/backgrounds/bg1.jpg" class="img-responsive topbanner">
 <!-- =========================
    PRE LOADER       
 ============================== -->
@@ -48,7 +48,7 @@
 <header id="home" class="header">
 	
 	<!-- TOP BAR -->
-	<div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
+	<div id="main-nav" class="navbar navbar-inverse bs-docs-nav fixed" role="banner">
 		<div class="container">
 			<div class="navbar-header responsive-logo">
 				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar-collapse">
@@ -67,6 +67,7 @@
 				<li><a href="#finalists">Finalists</a></li>
 				<li><a href="#vote">Vote</a></li>
 				<li><a href="#instagram">Instagram</a></li>
+				<li><a href="insta.html">Instagram Slider</a></li>
 				<li><a href="#videos">Videos</a></li>
 				<li><a href="#staff">Gents</a></li>
 
@@ -77,16 +78,15 @@
 	<!-- / END TOP BAR -->
 	
 	<!-- BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES -->
-	<div class="container">
+	<div class="container">		
 		
-		<!-- HEADING -->
 		<h1 class="intro">DAMSUPE HT15</h1>
-		
-		<!-- CALL TO ACTION BUTTONS -->
-		<div class="buttons inpage-scroll">
+
+		<div class="buttons inpage-scroll slider_top">
 			<a href="#finalists" class="btn btn-primary custom-button red-btn">Finalists</a>
 			<a href="#vote" class="btn btn-primary custom-button green-btn">Vote</a>
 		</div>
+		
 		
 	</div> <!-- / END BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES  -->
 	
@@ -113,46 +113,76 @@
 	<!-- / END SECTION HEADER -->
 
 	<div class="row">
-		
-		<div class="col-lg-3 col-sm-3 focus-box red wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-			<div class="service-icon">
-				<i class="pixeden pd-icon-f1"></i> <!-- FOCUS ICON-->
+
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic">
+				<img class="finalist" src="images/finalist/sven.png" alt="Sven">
+				</figure>
+				<div class="member-details">
+					<h5 showtext="Sven"  id="f1n" class="dark-text blue-border-bottom">Unknown</h5>
+					<div showtext="Musician" class="position">
+					</div>
+				</div>
+				<div class="details">
+					<p findesc="sven">
+					</p>
+				</div>
 			</div>
-			<h5 class="red-border-bottom">First Finalist</h5> 
-			<p> 
-				 Finalist 1
-			</p>
 		</div>
 		
-		<div class="col-lg-3 col-sm-3 focus-box green wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-			<div class="service-icon">
-				<span class="pixeden pd-icon-f2"></span>
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic">
+				<img class="finalist" src="images/finalist/pelle.png" alt="Pelle">
+				</figure>
+				<div class="member-details">
+					<h5 showtext="Pelle" id="f2n" class="dark-text yellow-border-bottom">Unknown</h5>
+					<div showtext="Juggler" class="position">
+						
+					</div>
+				</div>
+				<div class="details">
+					<p findesc="pelle">
+					</p>
+				</div>
 			</div>
-			<h5 class="green-border-bottom">Someone Else</h5>
-			<p>
-				 Finalist 2
-			</p>
 		</div>
 		
-		<div class="col-lg-3 col-sm-3 focus-box blue wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-			<div class="service-icon">
-				<i class="pixeden pd-icon-f3"></i>
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic">
+				<img class="finalist" src="images/finalist/dz.png" alt="Dz">
+				</figure>
+				<div class="member-details">
+					<h5 showtext="Dz" id="f3n" class="dark-text red-border-bottom">Unknown</h5>
+					<div showtext="Dancer" class="position">
+					</div>
+				</div>
+				<div findesc="dz" class="details">
+					<p>
+					</p>
+				</div>
 			</div>
-			<h5 class="blue-border-bottom">Third Finalist</h5>
-			<p>
-				 Finalist 3 
-			</p>
+		</div>
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic">
+				<img class="finalist" src="images/finalist/unknown.png" alt="Oklart">
+				</figure>
+				<div class="member-details">
+					<h5 showtext="Oklart"  id="f4n" class="dark-text red-border-bottom">Unknown</h5>
+					<div showtext="Trainer" class="position">
+					</div>
+				</div>
+				<div class="details">
+					<p findesc="oklart">
+
+					</p>
+				</div>
+			</div>
 		</div>
 		
-		<div class="col-lg-3 col-sm-3 focus-box yellow wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-			<div class="service-icon">
-				<i class="pixeden pd-icon-f4"></i>
-			</div>
-			<h5 class="yellow-border-bottom">Fourth finalist</h5>
-			<p>
-				 Finalist 4
-			</p>
-		</div>
 	</div>
 
 	
@@ -185,7 +215,7 @@
 	    <div class="loader-icon"></div>
 	</div>
 	<div class="col-md-12">
-		<iframe class="iframe" src="http://strawpoll.me/embed_1/5921153">Loading poll...</iframe>
+		<iframe id="poll" class="iframe" src="http://strawpoll.me/embed_1/5921153">Loading poll...</iframe>
 	</div>
 	
 </div> <!-- / END CONTAINER -->
@@ -562,6 +592,30 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic">
+				<img src="images/team/john.jpg" alt="John">
+				</figure>
+				<div class="member-details">
+					<h5 class="dark-text yellow-border-bottom">John</h5>
+					<div class="position">
+						B.T.B
+					</div>
+				</div>
+				<div class="social-icons">
+					<ul>
+						<li><a href="https:/www.facebook.com/JohnHBobrowski"><i class="icon-facebook"></i></a></li>
+					</ul>
+				</div>
+				<div class="details">
+					<p>
+						Bob The Builder
+					</p>
+				</div>
+			</div>
+		</div>
 	</div> <!-- / END STAFF MEMBER LIST -->
 	
 </div> <!-- / END CONTAINER -->
@@ -614,9 +668,7 @@
 <script src="js/wow.min.js"></script>
 <script src="js/jquery.nav.js"></script>
 <script src="js/jquery.knob.js"></script>
-<script src="js/owl.carousel.min.js"></script>
 <script src="js/smoothscroll.js"></script>
-<script src="js/jquery.vegas.min.js"></script>
 <script src="js/zerif.js"></script>
 
 
