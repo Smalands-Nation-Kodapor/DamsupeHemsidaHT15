@@ -9,20 +9,20 @@
 
 .pd-icon-f1 {
     width: 68px;
-    background: url("../images/finalist/sven.png") no-repeat;
+    background: url("../assets/pd-icons/icon-f1.png") no-repeat;
 }
 
 .pd-icon-f2 {
     width: 68px;
-    background: url("../images/finalist/pelle.png") no-repeat;
+    background: url("../assets/pd-icons/icon-f2.png") no-repeat;
 }
 
 .pd-icon-f3 {
     width: 68px;
-    background: url("../images/finalist/dz.png") no-repeat;
+    background: url("../assets/pd-icons/icon-f3.png") no-repeat;
 }
 
 .pd-icon-f4 {
     width: 68px;
-    background: url("../images/finalist/unknown.png") no-repeat;
+    background: url("../assets/pd-icons/icon-f4.png") no-repeat;
 }

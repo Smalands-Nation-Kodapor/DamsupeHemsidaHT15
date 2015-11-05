@@ -1,4 +1,11 @@
-
+$.vegas('slideshow', {
+  delay:7000,
+  backgrounds:[
+    { src:'images/backgrounds/bg1.jpg', fade:1000 },
+    { src:'images/backgrounds/bg2.jpg', fade:1000 },
+    { src:'images/background.png', fade:1000 }
+  ]
+});
 /* =================================
    LOADER                     
 =================================== */
@@ -74,9 +81,7 @@ $(document).ready(function(){
     });
 });
 
-/*=================================
-===  OWL CROUSEL               ====
-===================================*/
+/*
    $(document).ready(function() {
   var owl = $("#client-feedbacks");
   owl.owlCarousel({
@@ -87,7 +92,7 @@ $(document).ready(function(){
       itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
   });
 });
-
+*/
 
 /*=================================
 ===  SMOOTH SCROLL             ====
