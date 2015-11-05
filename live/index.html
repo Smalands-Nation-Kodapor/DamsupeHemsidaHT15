@@ -8,13 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Smålands nation Damsupe HT15</title>
 
-<!-- =========================
- FAV AND TOUCH ICONS  
-============================== -->
-<link rel="shortcut icon" href="images/icons/favicon.ico">
-<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
 
 <!-- =========================
      STYLESHEETS      
@@ -35,14 +28,11 @@
 <!-- WEBFONT -->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Montserrat:700,400|Homemade+Apple' rel='stylesheet' type='text/css'>
 
-<!--[if lt IE 9]>
-			<script src="js/html5shiv.js"></script>
-			<script src="js/respond.min.js"></script>
-		<![endif]-->
-
 <!-- JQUERY -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/instafeed.min.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+
 </head>
 
 
@@ -104,7 +94,7 @@
 </header> <!-- / END HOME SECTION  -->
 
 <!-- =========================
-   FOCUS SECTION      
+   FINALISTS SECTION      
 ============================== -->
 
 <section class="focus" id="finalists">
@@ -196,7 +186,7 @@
 	    <div class="loader-icon"></div>
 	</div>
 	<div class="col-md-12">
-		<iframe class="vote-poll" src="http://strawpoll.me/embed_1/5921153">Loading poll...</iframe>
+		<iframe class="iframe" src="http://strawpoll.me/embed_1/5921153">Loading poll...</iframe>
 	</div>
 	
 </div> <!-- / END CONTAINER -->
@@ -238,7 +228,7 @@
    VIDEOS SECTION   
 ============================== -->
 
-<section class="packages" id="videos">
+<section class="about-us" id="videos">
 <div class="container">
 	
 	<!-- SECTION HEADER -->
@@ -249,13 +239,32 @@
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6 class="white-text">
-			Videos whiihi
+		
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
 
 	<div class="row">
-		
+		<div class="col-md-12">
+			<figure id="video_player">
+ 				<div id="video_container">
+  					<video controls>
+    					<source src="videos/vid1.mp4" type="video/mp4">
+					</video>
+				</div>
+				<figcaption>
+  					<a href="videos/vid1.mp4" movieurl="videos/vid1.mp4" class="currentvid">
+    					<img src="videos/img.jpg" alt="test">
+  					</a>
+					<a href="videos/vid2.mp4" movieurl="videos/vid2.mp4">
+					    <img src="videos/img.jpg" alt="test2">
+					</a>
+					<a href="videos/vid3.mp4" movieurl="videos/vid3.mp4">
+					    <img src="videos/img.jpg" alt="test3">
+  					</a>
+				</figcaption>
+			</figure>
+		</div>
 	</div> 
 
 </div> <!--END CONTAINER  -->
@@ -272,11 +281,11 @@
 	<div class="section-header">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Our Team</h2>
+		<h2 class="dark-text">Your Gentlemen</h2>
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6>
-			Check our awesome team memebers who always work hard to provide quality products. 
+			They can't behave, don't know how to shave, will probably be forced into an early grave, but i'll be damned if they don't know how to throw a rave
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
@@ -287,22 +296,22 @@
 		<div class="col-lg-3 col-sm-3">
 			<div class="team-member">
 				<figure class="profile-pic"> 
-				<img src="images/team/pic1.jpg" alt=""> <!-- MEMBER PROFILE PIC -->
+				<img src="images/team/johan_rud.jpg" alt="Pelle"> <!-- MEMBER PROFILE PIC -->
 				</figure>
 				<div class="member-details">
 					<h5 class="dark-text red-border-bottom">Johan Rudsby</h5>
 					<div class="position">
-						Bossman
+						B.O.S.S.M.A.N
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/riddarejohan?fref=ts"><i class="icon-facebook"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
 					<p>
-						Johan is single and looking for love!
+						Bakis Oerhört Snyggt Säger Man Alltid Numera
 					</p>
 				</div>
 			</div>
@@ -312,22 +321,22 @@
 		<div class="col-lg-3 col-sm-3">
 			<div class="team-member">
 				<figure class="profile-pic">
-				<img src="images/team/pic2.jpg" alt="">
+				<img src="images/team/jonas_o.jpg" alt="Jonas">
 				</figure>
 				<div class="member-details">
-					<h5 class="dark-text green-border-bottom">Patricia Medina</h5>
+					<h5 class="dark-text green-border-bottom">Jonas Olander</h5>
 					<div class="position">
-						Senior Desigener
+						W.E.B.M.A.S.T.E.R
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/olander1?fref=ts"><i class="icon-facebook"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+						Want Easy Bacon Mondays And Saturdays To Evolve Rapidly
 					</p>
 				</div>
 			</div>
@@ -336,22 +345,22 @@
 		<div class="col-lg-3 col-sm-3">
 			<div class="team-member">
 				<figure class="profile-pic">
-				<img src="images/team/pic3.jpg" alt="">
+				<img src="images/team/johan_skar.jpg" alt="Cockmaster">
 				</figure>
 				<div class="member-details">
-					<h5 class="dark-text blue-border-bottom">Eugene Lane</h5>
+					<h5 class="dark-text blue-border-bottom">Johan Skärholm</h5>
 					<div class="position">
-						Lead Developer
+						C.O.C.K.M.A.S.T.E.R
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/Johanskarholm?fref=ts"><i class="icon-facebook"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+						Cooking Oil Can Kill Many And Separating Teenagers Rocks 
 					</p>
 				</div>
 			</div>
@@ -360,22 +369,22 @@
 		<div class="col-lg-3 col-sm-3">
 			<div class="team-member">
 				<figure class="profile-pic">
-				<img src="images/team/pic4.jpg" alt="">
+				<img src="images/team/carl_win.jpg" alt="Carl">
 				</figure>
 				<div class="member-details">
-					<h5 class="dark-text yellow-border-bottom">Kathy Hudson</h5>
+					<h5 class="dark-text yellow-border-bottom">Carl Wingårdh</h5>
 					<div class="position">
-						Art Director
+						K.O.R.T
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/i.love.carl?fref=ts"><i class="icon-facebook"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+						Känslor, Onani och Redig Talang
 					</p>
 				</div>
 			</div>
@@ -384,22 +393,22 @@
 		<div class="col-lg-3 col-sm-3">
 			<div class="team-member">
 				<figure class="profile-pic">
-				<img src="images/team/pic5.jpg" alt="">
+				<img src="images/team/nils_stahl.jpg" alt="Nils">
 				</figure>
 				<div class="member-details">
-					<h5 class="dark-text red-border-bottom">Vincent Mccoy</h5>
+					<h5 class="dark-text red-border-bottom">Nils Ståhlkrantz</h5>
 					<div class="position">
-						Project Manager
+						Nordic Stereotype
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/nils.stahlkrantz?fref=ts"><i class="icon-facebook"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+						Is this a handsome man or what?
 					</p>
 				</div>
 			</div>
@@ -408,22 +417,22 @@
 		<div class="col-lg-3 col-sm-3">
 			<div class="team-member">
 				<figure class="profile-pic">
-				<img src="images/team/pic6.jpg" alt="">
+				<img src="images/team/Anton_nil.jpg" alt="Anton">
 				</figure>
 				<div class="member-details">
-					<h5 class="dark-text green-border-bottom">Gary Morrison</h5>
+					<h5 class="dark-text green-border-bottom">Anton Nilsson</h5>
 					<div class="position">
-						Photographer
+						Greedy S.O.B
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/Anrik?fref=ts"><i class="icon-facebook"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+						He'll clean you out
 					</p>
 				</div>
 			</div>
@@ -432,22 +441,22 @@
 		<div class="col-lg-3 col-sm-3">
 			<div class="team-member">
 				<figure class="profile-pic">
-				<img src="images/team/pic7.jpg" alt="">
+				<img src="images/team/gutten.jpg" alt="Gutten">
 				</figure>
 				<div class="member-details">
-					<h5 class="dark-text blue-border-bottom">Patrick Sanchez</h5>
+					<h5 class="dark-text blue-border-bottom">Gutten</h5>
 					<div class="position">
-						Business Development
+						L.I.G.G
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/gustav.bjorlingson?fref=ts"><i class="icon-facebook"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+						Löv is Grejt, Gajs
 					</p>
 				</div>
 			</div>
@@ -456,22 +465,94 @@
 		<div class="col-lg-3 col-sm-3">
 			<div class="team-member">
 				<figure class="profile-pic">
-				<img src="images/team/pic8.jpg" alt="">
+				<img src="images/team/rasmus_mon.jpg" alt="Rasmus">
 				</figure>
 				<div class="member-details">
-					<h5 class="dark-text yellow-border-bottom">Rachel Rogers</h5>
+					<h5 class="dark-text yellow-border-bottom">Rasmus Montell</h5>
 					<div class="position">
-						Account Manager
+						S.K.Y.S.K.R.A.P.A
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/rasmus.montell?fref=ts"><i class="icon-facebook"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+						Skall Karln Yttra Sig Klart Rekommenderas Alltid Pilsner. Alltid. 
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic">
+				<img src="images/team/filip_bie.jpg" alt="Filip">
+				</figure>
+				<div class="member-details">
+					<h5 class="dark-text yellow-border-bottom">Filip Biel</h5>
+					<div class="position">
+						M.Y.S.J.Ä.V.E.L
+					</div>
+				</div>
+				<div class="social-icons">
+					<ul>
+						<li><a href="https://www.facebook.com/filip.biel.1?fref=ts"><i class="icon-facebook"></i></a></li>
+					</ul>
+				</div>
+				<div class="details">
+					<p>
+						Många Yngre Snusar, Jag Är Väl En Liten
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic">
+				<img src="images/team/tommie_bra.jpg" alt="Tommie">
+				</figure>
+				<div class="member-details">
+					<h5 class="dark-text yellow-border-bottom">Tommie Brandt</h5>
+					<div class="position">
+						S.M.E.G.M.A
+					</div>
+				</div>
+				<div class="social-icons">
+					<ul>
+						<li><a href="https://www.facebook.com/tommie.brandt.5?fref=ts"><i class="icon-facebook"></i></a></li>
+					</ul>
+				</div>
+				<div class="details">
+					<p>
+						Som Musikern Ekade: Ge Mig Arsenik
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic">
+				<img src="images/team/Dz.jpg" alt="Dz">
+				</figure>
+				<div class="member-details">
+					<h5 class="dark-text yellow-border-bottom">Dz</h5>
+					<div class="position">
+						S.T.O.N.E.R
+					</div>
+				</div>
+				<div class="social-icons">
+					<ul>
+						<li><a href="https://www.facebook.com/piggillini?fref=ts"><i class="icon-facebook"></i></a></li>
+					</ul>
+				</div>
+				<div class="details">
+					<p>
+						Straight Outta Nation, Err'body Recognize
 					</p>
 				</div>
 			</div>
@@ -493,7 +574,7 @@
 		<div class="icon-top red-text">
 		    <i class="icon-fontawesome-webfont-302"></i>
 		</div>
-		PO Box 16122 Collins Street West, Victoria 8007 Australia
+		S:t Larsgatan 5 75311 Uppsala
 	</div>
 	
 	<!-- COMPANY EMAIL-->
@@ -501,7 +582,7 @@
 		<div class="icon-top green-text">
 		<i class="icon-fontawesome-webfont-329"></i>
 		</div>
-		 contact@designlab.co
+		 1q@smalands.nu
 	</div>
 	
 	<!-- COMPANY PHONE NUMBER -->
@@ -509,19 +590,16 @@
 		<div class="icon-top blue-text">
 		<i class="icon-fontawesome-webfont-101"></i>
 		</div>
-		+613 0000 0000
+		+4618131854
 	</div>
 	
 	<!-- SOCIAL ICON AND COPYRIGHT -->
 	<div class="col-lg-3 col-sm-3 copyright">
 		<ul class="social">
-			<li><a href=""><i class="icon-facebook"></i></a></li>
-			<li><a href=""><i class="icon-twitter-alt"></i></a></li>
-			<li><a href=""><i class="icon-linkedin"></i></a></li>
-			<li><a href=""><i class="icon-behance"></i></a></li>
-			<li><a href=""><i class="icon-dribbble"></i></a></li>
+			<li><a href="https://www.facebook.com/smalandsuppsala?ref=bookmarks"><i class="icon-facebook"></i></a></li>
+			<li><a href="https://twitter.com/smalandsuppsala"><i class="icon-twitter-alt"></i></a></li>
 		</ul>
-		 ©2013 Zerif LLC
+		 ©2015 Smålands nation
 	</div>
 </div> <!-- / END CONTAINER -->
 </footer> <!-- / END FOOOTER  -->
