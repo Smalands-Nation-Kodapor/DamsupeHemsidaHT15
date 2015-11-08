@@ -1,15 +1,16 @@
 var hidePoll = false;
 var hideFinalists = false;
 
-var pelledesc = "Description of pelle";
-var svendesc = "Description of Sven";
-var dzdesc = "Description of Dz";
-var oklartdesc = "Description of Oklart";
+var pelledesc = "A combination of poor judgement and bad taste!";
+var svendesc = "Sweet sweet skånsk music";
+var dzdesc = "No description needed. His performance speaks for itself.";
+var gabrieldesc = "He think he is funny.";
 
 var toggle = function() {
 
 	if (hidePoll) {
 		$("#poll").addClass("hidden");
+		$("#polldesc").text("Coming soon...")
 	}
 	
 	if (hideFinalists) {
@@ -20,7 +21,7 @@ var toggle = function() {
 		$('[showtext]').each(function(){
     		$(this).text($(this).attr('showtext'));
 		});
-
+		$("#findesc").text("");
 		$('[findesc]').each(function(){
 
 			var a = $(this).attr('findesc');
@@ -28,10 +29,10 @@ var toggle = function() {
 				$(this).text(svendesc);
 			} else if(a == 'pelle') {
 				$(this).text(pelledesc);
-			} else if(a == 'dz') {
+			} else if(a == 'Dz') {
 				$(this).text(dzdesc);
-			} else if(a == 'oklart') {
-				$(this).text(oklartdesc);
+			} else if(a == 'gabriel') {
+				$(this).text(gabrieldesc);
 			}
 		});
 	}
